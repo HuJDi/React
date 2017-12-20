@@ -1,0 +1,45 @@
+#headbar{
+	width:100%;
+	height:0.5rem;
+	background:#E5E5E5;
+	font:0.14rem/0.5rem '';
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:5;
+	span{
+		float:left;
+		font:0.16rem/0.5rem "";
+		margin-left:0.15rem;
+	}
+	input{
+		border:0;
+		height:0.3rem;
+		font-size:0.12rem;
+		float:right;
+		margin-top:0.1rem;
+	}
+	.text{
+		width:1.8rem;
+		padding:0 0.05rem;
+		position:relative;
+	}
+	.search{
+		width:0.4rem;
+		background:#FF4500;
+		color:#fff;
+		margin-right:0.1rem;
+	}
+	ul{
+		position:absolute;
+		width:1.7rem;
+		top:0.4rem;
+		left:1.35rem;
+		background:#fff;
+		padding:0 0.1rem;
+		li{
+			font:0.12rem/0.24rem "";
+			color:#666;
+		}
+	}
+}

@@ -1,0 +1,26 @@
+.loading{
+	font:0.18rem/0.5rem "";
+}
+
+#detail{
+	padding-top:0.51rem;
+	img{
+		width:100%;
+	}
+	p{
+		font:0.16rem/0.4rem "";
+		margin:0 0.2rem;
+		span{
+			font:0.14rem/0.1rem "";
+			color:#666;
+		}
+	}
+	button{
+		font:0.16rem/0.4rem "";
+		width:1.5rem;
+		background:#FF4500;
+		color:#fff;
+		border:0;
+		margin-left:1.125rem;
+	}
+}

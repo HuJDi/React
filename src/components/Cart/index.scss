@@ -1,0 +1,38 @@
+#cart{
+	padding-top:0.5rem;
+	li{
+		display:flex;
+		padding:0.1rem 0.15rem;
+		justify-content: space-around;
+		img{
+			width:0.7rem;
+			height:0.9rem;
+		}
+		div{
+			width:1.5rem;
+			.nowTitle{
+				font:700 0.16rem/0.4rem "";
+			}
+			p{
+				font:0.14rem/0.25rem "";
+				text-align:center;
+			}
+			.topTitle{
+				font:700 0.16rem/0.4rem "";
+			}
+		}
+	}
+	.total{
+		font:0.16rem/1rem "";
+		text-align:right;
+		margin-right:0.2rem;
+		span{
+			color:#FF4500;
+		}
+	}
+}
+.nullCart{
+	padding-top:0.5rem;
+	font:0.20rem/2rem "";
+	text-align:center;
+}
